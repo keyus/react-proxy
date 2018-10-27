@@ -1,0 +1,19 @@
+.title-bar{
+  height: 65px;
+  background: #fff;
+  font-size: 16px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-left: 17px;
+  display: flex;
+  align-items: center;
+  h1{
+    font-weight: 400;
+    color: #2483cd;
+    font-size: 22px;
+    margin: 0;
+  }
+  i,img{
+    color: #8593b2;
+    margin-left: 10px;
+  }
+}

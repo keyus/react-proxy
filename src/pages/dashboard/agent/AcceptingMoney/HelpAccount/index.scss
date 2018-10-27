@@ -1,0 +1,92 @@
+.help-account {
+  display: flex;
+  flex: 1;
+  height: 600px;
+  background-color: #fff;
+  flex-direction: column;
+
+  .head {
+    display: flex;
+    //flex: 1;
+    height: 64px;
+    border-bottom: 2px solid #f7f7f7;
+    div {
+      font-size: 20px;
+      color: #2984cd;
+      padding: 10px 0 0 10px;
+    }
+  }
+
+  .jiange10 {
+    width: 10px;
+  }
+
+  .jiange40 {
+    width: 40px;
+  }
+
+  .height30{
+    height: 30px;
+  }
+
+  .content {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+
+    .font15{
+      font-size: 17px;
+    }
+    .input-width{
+      width: 230px;
+      height: 30px;
+    }
+    .list-one {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .list-two {
+      display: flex;
+      margin-top: 10px;
+
+    }
+    .input {
+
+      margin-top: 10px;
+      display: flex;
+    }
+
+    .commission {
+      margin-top: 20px;
+    }
+    .remarks {
+
+      margin-top: 20px;
+
+    }
+
+    .ticheng{
+      width: 100px;
+      height: 30px;
+      background-color: #575757;
+      color: #fff;
+    }
+
+    .tishi{
+      height: 30px;
+      width: 150px;
+    }
+  }
+
+  .btn {
+    margin-top: 38px;
+    text-align: center;
+
+    .btn-di{
+      width:300px
+    }
+  }
+}

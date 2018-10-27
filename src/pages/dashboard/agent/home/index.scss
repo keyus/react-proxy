@@ -1,0 +1,214 @@
+.home {
+
+  .home-head {
+    display: flex;
+
+    .head-flex {
+      display: flex;
+      flex: 1;
+      background-color: #fff;
+      height: 40px;
+
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      justify-content: space-between;
+    }
+
+    .head-blue {
+      color: #4997d5;
+    }
+  }
+  .head-interval {
+
+    width: 20px;
+    height: 40px;
+  }
+  .jinrishouye {
+    display: flex;
+
+    .lift{
+
+      background: url("../../../../assets/images/dashboard/dashboard img1.png") no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .right{
+      background: url("../../../../assets/images/dashboard/dashboard img2.png") no-repeat;
+      background-size: 100% 100%;
+
+    }
+
+    margin-top: 20px;
+    .jinrishouye-flex {
+      display: flex;
+      flex: 1;
+      height: 142px;
+      //background-color: #5fa9ff;
+
+      flex-direction: column;
+      padding: 20px;
+
+      .jiachu {
+        font-size: 30px;
+      }
+      .jinrishouye-leirong {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 10px;
+
+      }
+
+    }
+  }
+
+
+  .echarts{
+    display: flex;
+    flex: 1;
+    height: 145px;
+    background-color: #fff;
+    margin-top: 20px;
+    justify-content: space-around;
+
+    .echart-item{
+      display: flex;
+    }
+
+
+    .echart-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .lins-jiange{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    .link-lift{
+      display: flex;
+      .link-fontstype{
+        margin-left: 20px;
+      }
+    }
+  }
+  .zhuxintu{
+    display: flex;
+    flex: 1;
+    height: 220px;
+    background-color: #fff;
+
+  }
+
+
+  .dibu{
+    display: flex;
+
+    margin-top: 20px;
+
+
+
+
+
+    .dibu-item{
+      display: flex;
+      flex: 1;
+      background-color: #fff;
+      //height: 308px;
+      padding: 10px;
+      flex-direction: column;
+      .jiaocheng{
+        display: flex;
+
+        justify-content: space-between;
+        height: 20px;
+
+      }
+    }
+
+    .jiaocheng-list{
+      margin-top: 15px;
+      height: 106px;
+      display: flex;
+
+      border: 2px solid #f7f7f7;
+      justify-content: space-between;
+
+      padding: 10px 12px;
+      .left{
+        background: url("../../../../assets/images/dashboard/wddlzdsq.png") no-repeat;
+
+        width: 60%;
+        height: 100%;
+        background-size: 100% auto;
+        div{
+          margin-top:50px;
+          color: rgb(162, 165 ,169);
+          font-size: 14px;
+        }
+
+      }
+
+      .right{
+        background: url("../../../../assets/images/dashboard/wddlzdsq-tou.png") no-repeat;
+
+        height: 100%;
+        width: 93px;
+        background-size: 100% 100%;
+
+      }
+
+    }
+
+    .gonggao-list{
+      margin-top: 20px;
+      //height: 235px;
+      display: flex;
+
+      border: 2px solid #f7f7f7;
+      padding: 5px 20px 0 20px;
+      flex-direction: column;
+
+      .list-border{
+        border-bottom: 2px solid #f7f7f7;
+
+      }
+      .list-item{
+        height: 100px;
+
+        margin-bottom: 10px;
+
+        .list-heade{
+          font-size: 15px;
+
+        }
+
+        .list-content{
+
+          margin-top: 10px;
+
+          height: 60px;
+          overflow:hidden;
+          position: relative;
+
+          &:after {
+            content: "...";
+            position: absolute;
+            bottom: -4px;
+            right: 0;
+            /*将省略号的大小设置为1个字体大小*/
+            width: 10px;
+            /*设置背景，将最后一个字覆盖掉*/
+            background: #fff;
+          }
+
+        }
+      }
+    }
+
+  }
+}

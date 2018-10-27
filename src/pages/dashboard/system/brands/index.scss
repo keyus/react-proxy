@@ -1,0 +1,17 @@
+.page-brands {
+  min-width: 600px;
+
+  .ant-card-head-title {
+    color: #1890ff;
+  }
+
+  .grid-row + .grid-row{
+    margin-top: 16px;
+  }
+  
+  .table {
+    th, td {
+      text-align: center;
+    }
+  }
+}

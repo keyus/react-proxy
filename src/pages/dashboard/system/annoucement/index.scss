@@ -1,0 +1,30 @@
+.annoucement{
+    .spaceBetween{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            margin-bottom: 0;
+        }
+        div:last-child{
+            margin-right: 0;
+        }
+    }
+    
+    .action{
+        .ant-btn{
+            margin-right: 15px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    
+    .operation{
+        span{
+            margin-right: 15px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}

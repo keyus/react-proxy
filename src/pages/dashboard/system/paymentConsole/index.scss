@@ -1,0 +1,58 @@
+.page-payment-console {
+  .ant-card-head-title {
+    color: #1890ff;
+  }
+
+  .grid-row + .grid-row{
+    margin-top: 16px;
+  }
+
+  .table {
+    th {
+      text-align: center;
+    }
+  }
+
+  .table-action {
+    text-align: center;
+
+    span {  
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+
+  .ant-table-wrapper + .ant-table-wrapper {
+    margin-top: 20px;
+  }
+
+  .table-col-action {
+    position: relative;
+    padding-right: 100px;
+    box-sizing: border-box;
+
+    &.input-box {
+      padding-right: 150px;
+
+      .action-box {
+        top: -5px;
+
+        .edit-btn {
+          margin-left: 10px;
+          color: #1890ff;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .action-box {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .table-text-col {
+    text-align: center;
+  }
+}

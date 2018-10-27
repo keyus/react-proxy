@@ -1,0 +1,26 @@
+.page-orders {
+  min-width: 600px;
+
+  .ant-card-head-title {
+    color: #1890ff;
+  }
+
+  .grid-row + .grid-row{
+    margin-top: 16px;
+  }
+  
+  .table {
+    th {
+      text-align: center;
+    }
+  }
+
+  .table-action {
+    text-align: center;
+
+    span {  
+      color: #1890ff;
+      cursor: pointer;
+    }
+  } 
+}

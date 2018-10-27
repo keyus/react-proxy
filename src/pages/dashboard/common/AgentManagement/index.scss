@@ -1,0 +1,120 @@
+.agent-management {
+  //display: flex;
+  //flex: 1;
+  //height: 150px;
+  //background-color: #fff;
+  //flex-direction: column;
+
+  .head-item{
+    display: flex;
+    flex: 1;
+    height: 160px;
+    background-color: #fff;
+    flex-direction: column;
+  }
+
+  .head {
+    display: flex;
+    //flex: 1;
+    height: 64px;
+    border-bottom: 2px solid #f7f7f7;
+    div {
+      font-size: 20px;
+      color: #2984cd;
+      padding: 10px 0 0 10px;
+    }
+  }
+
+  .head-content {
+    display: flex;
+
+    .list-item {
+      margin-left: 15px;
+
+      div:nth-child(1) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+
+      .btn {
+        width: 95px;
+      }
+    }
+
+    .list-ticheng {
+
+      margin-left: 15px;
+      .ticheng-title{
+        margin-top: 10px;
+      }
+      .ticheng {
+        margin-top: 10px;
+        display: flex;
+        //justify-content: center;
+        align-items: center;
+
+      }
+    }
+
+
+  }
+
+
+  .content-table{
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    //height:290px ;
+    background-color: #fff;
+    padding: 20px;
+
+    flex-direction: column;
+
+    .table-head{
+      display: flex;
+      justify-content: space-between;
+
+      .right{
+        display: flex;
+        div:nth-child(1){
+          margin-right: 10px;
+        }
+
+        .select-width{
+          width: 120px;
+        }
+      }
+    }
+
+
+    .table{
+      margin-top: 20px;
+    }
+
+  }
+
+}
+.modification{
+
+  .ant-row{
+    margin-top: 10px;
+  }
+
+  .flex{
+    .ant-radio-group{
+      display: flex;
+    }
+  }
+
+
+  .di-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .btn{
+      width: 300px;
+      height: 35px;
+    }
+  }
+}

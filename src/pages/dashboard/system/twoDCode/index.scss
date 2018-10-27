@@ -1,0 +1,39 @@
+.page-twodcode {
+  min-width: 600px;
+
+  .ant-card-head-title {
+    color: #1890ff;
+  }
+  
+  .grid-row + .grid-row{
+    margin-top: 16px;
+  }
+
+  .file {
+      .ant-col-12 {
+        height: 200px;
+      }
+  }
+
+  .upload-text {
+    height: 100%;
+    padding-right: 50px;
+    display: table;
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .table {
+    
+    .table-title {
+      font-weight: 300;
+    }
+    
+    .column-id {
+      text-align: center;
+    }
+  }
+}

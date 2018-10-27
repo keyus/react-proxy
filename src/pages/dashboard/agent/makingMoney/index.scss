@@ -1,0 +1,76 @@
+.making-money {
+  display: flex;
+  flex: 1;
+  height: 555px;
+  background-color: #fff;
+  flex-direction: column;
+
+  .head {
+    display: flex;
+    //flex: 1;
+    height: 64px;
+    border-bottom: 2px solid #f7f7f7;
+    div {
+      font-size: 20px;
+      color: #2984cd;
+      padding: 10px 0 0 10px;
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    flex: 1;
+    padding: 20px;
+
+    .lift {
+
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: space-between;
+      .zhongjian {
+        display: flex;
+        flex-direction: column;
+      }
+      .tgxcdz {
+        //margin-top: 50px;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        margin-top: 10px;
+        width: 100px;
+      }
+      .dibu-btn {
+        display: flex;
+
+        .di-btn {
+          height: 35px;
+          width: 165px;
+        }
+        .jiange {
+          width: 20px;
+        }
+      }
+    }
+
+    .right {
+
+      .tgzq {
+        background: url("../../../../assets/images/tgzq.png") no-repeat;
+        background-size: 100% 100%;
+        height: 395px;
+        width: 252px;
+      }
+
+      .chakan {
+        margin-top:10px ;
+        color: #2984cd;
+        text-align: center;
+      }
+    }
+
+  }
+}

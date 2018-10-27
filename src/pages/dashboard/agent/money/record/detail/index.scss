@@ -1,0 +1,59 @@
+.record-detail {
+  .ant-modal-header{
+    position: relative;
+    border-bottom: none;
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      left: 24px;
+      right: 24px;
+      bottom: 0;
+      border-bottom: 1px solid #e8e8e8;
+    }
+  }
+  .ant-modal-title {
+    color: #2984cd;
+    font-size: 18px;
+  }
+  .ant-modal-footer{
+    border-top: none;
+    text-align: center;
+    padding: 0 16px 24px;
+    button{
+      width: 145px;
+      height: 36px;
+    }
+  }
+}
+
+.table-record-detail {
+  font-size: 17px;
+  border-color: #e3e3e3;
+
+  .max-text{
+    line-height: 20px;
+    font-weight: 400;
+    span{
+      display: block;
+      &:last-of-type{
+        margin-left: 15px;
+      }
+    }
+  }
+  tr {
+    td {
+      text-align: left;
+      padding-left: 20px;
+      border-color: #e3e3e3;
+      color: #666;
+      height: 52px;
+      font-weight: 400;
+      &:first-child,
+      &:nth-of-type(2n+1) {
+        background: #eff8ff;
+        font-weight: 500;
+      }
+    }
+  }
+}

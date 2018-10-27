@@ -1,0 +1,38 @@
+.container-404{
+  padding-top: 80px;
+  background-color: #f5f8fa;
+  height: 100%;
+}
+
+.container-404-center{
+  margin: 0 auto;
+  text-align: center;
+  background: url('../../assets/images/icon-circles.png') no-repeat center;
+
+  header{
+    h1{
+      font-size: 32px;
+      margin-bottom: .5rem;
+      font-weight: 300;
+      line-height: 1.2;
+      color: #606676;
+    }
+    p{
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 32px;
+      color: #5e6977;
+      margin: 20px auto 40px;
+      width: 407px;
+    }
+  }
+  .container-404-tag{
+    font-weight: 300;
+    letter-spacing: .2px;
+    line-height: 30px;
+    font-size: 256px;
+    color: #86939e;
+    padding-top: 100px;
+  }
+
+}

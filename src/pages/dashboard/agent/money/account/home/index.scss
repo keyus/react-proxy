@@ -1,0 +1,29 @@
+.account{
+  padding: 30px 20px;
+  font-size: 18px;
+
+  h2{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  a{
+    color: #4f9cd7;
+  }
+
+  .account-handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form{
+    input,select{
+      font-size: 16px;
+      font-weight: 400;
+      color: #202020;
+    }
+  }
+
+
+}

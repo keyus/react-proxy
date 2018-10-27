@@ -1,0 +1,128 @@
+.app{
+  height: 100%;
+  background: #e8ecef;
+  display: flex;
+
+  .user-bar{
+    position: fixed;
+  }
+  .side{
+    background: #293246;
+    width: 256px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .side-menus{
+      min-height: 1%;
+      flex: 1;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+
+    h1{
+      color: #fff;
+      font-weight: 300;
+      height: 50px;
+      line-height: 50px;
+      padding-left: 30px;
+      padding-right: 24px;
+      font-size: 18px;
+      display: flex;
+      justify-content: space-between;
+      span{
+        cursor: pointer;
+        font-size: 14px;
+      }
+    }
+
+    .item{
+      .top{
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+        font-weight: 400;
+        a{
+          padding-left: 26px;
+          color: #7e8baa;
+          display: flex;
+          height: 100%;
+          border-left: 4px solid transparent;
+        }
+      }
+
+      .active{
+        color: #fff!important;
+        background: #1e2639;
+        border-left: 4px solid #398cff!important;
+      }
+    }
+
+    .children{
+      .children-item{
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+        font-weight: 400;
+        a{
+          padding-left: 46px;
+          color: #7e8baa;
+          display: flex;
+          height: 100%;
+          border-left: 4px solid transparent;
+        }
+      }
+    }
+  }
+
+  .main{
+    flex: 1;
+    min-width: 1%;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 50px;
+  }
+
+  .main-bar{
+    position: absolute;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    color: #8593b2;
+    line-height: 50px;
+    box-shadow: 0 0 6px rgba(0,0,0,.1);
+    .main-bar-list{
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      li{
+        height: 100%;
+      }
+    }
+    a{
+      color: #8593b2;
+      padding: 0 6px;
+      i{
+        font-size: 18px;
+      }
+    }
+    .user{
+      padding: 0 16px 0 10px;
+      i{
+        font-size: 12px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+.page{
+  padding: 15px 17px;
+}

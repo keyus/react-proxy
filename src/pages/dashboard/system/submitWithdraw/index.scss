@@ -1,0 +1,52 @@
+.submitWithdraw{
+    .ant-card-head-title{
+        color: #4c7fb0;
+    }
+    .ant-card:first-child{
+        margin-bottom: 15px;
+    }
+    .status{
+        width: 160px;
+    }
+    .time{
+        width: 140px;
+        margin-right: 10px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .tableHeaderActionBar{
+        .text{
+            margin-right: 15px;
+        }
+        button{
+            color: #fff;
+            border: 0;
+            margin-right: 15px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        .pass{
+            background-color: #70a533;
+        }
+        .reject{
+            background-color: #bb6b3b;
+        }
+        .block{
+            background-color: #c48088;
+        }
+        .recover{
+            background-color: #f2ac49;
+        }
+    }
+    .ant-form-horizontal{
+        .ant-form-item{
+            margin-bottom: 15px;
+        }
+    }
+    .sTitle{
+        margin-bottom: 0;
+    }
+    
+}

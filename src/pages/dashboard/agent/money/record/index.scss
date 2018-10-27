@@ -1,0 +1,70 @@
+.record-filter{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #202020;
+  input{
+    width: 100px;
+  }
+  .record-filter-item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    &:last-of-type{
+      margin-right: 0;
+    }
+    span{
+      word-break: break-word;
+      white-space: nowrap;
+      margin-right: 12px;
+    }
+  }
+  .record-filter-date{
+    input{
+      margin-right: 20px;
+    }
+  }
+  .record-filter-button{
+    button{
+      width: 90px;
+    }
+    span{
+      margin-right: 0;
+    }
+  }
+}
+
+.record-list{
+  margin-top: 20px;
+  padding: 20px ;
+
+  .record-list-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    h5{
+      font-size: 18px;
+      color: #202020;
+      font-weight: 400;
+    }
+    button{
+      color: #8593b2;
+      width: 56px;
+      padding: 0;
+    }
+  }
+
+  .name{
+    background: #efdcff;
+    color: #4f5ef2;
+    padding: 0;
+    div{
+      min-height: 100%;
+      cursor: pointer;
+      &:hover{
+        background: #e6d3f5;
+      }
+    }
+  }
+}

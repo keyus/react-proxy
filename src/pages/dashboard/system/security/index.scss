@@ -1,0 +1,23 @@
+.page-security {
+  min-width: 600px;
+
+  .ant-card-head-title {
+    color: #1890ff;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  .setting-box {
+    
+    .setting-type {
+      margin-right: 10px;
+      padding: 5px 10px;
+      background-color: #aaa;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 3px;
+    }
+  }
+}

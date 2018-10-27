@@ -1,0 +1,72 @@
+.contactUs {
+    background-color: #ffffff;
+    .title {
+        font-size: 18px;
+        color: dodgerblue;
+        border-bottom: solid 1px #e1e1e1;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        .choose {
+            padding-bottom: 20px;
+            padding-top: 10px;
+            .radio {
+                display: block;
+                height: 30px;
+                line-height: 30px;
+            }
+        }
+        .input_area{
+            position: relative;
+            width: 300px;
+            border: solid 1px #e1e1e1;
+            border-radius: 4px;
+            textarea{
+              width: 100%;
+              resize: none;
+              min-height: 140px;
+              border: none;
+              line-height: 27px;
+              padding: 10px;
+              padding-top: 5px;
+              color: #000;
+              font-size: 13px;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
+              background-color: transparent;
+              overflow: visible;
+              display: block;
+              word-break: break-all;
+              word-wrap: break-word;
+              &::placeholder{
+                color: #bbb;
+              }
+            }
+            label{
+              position: absolute;
+              bottom: 3px;
+              right: 5px;
+              color: #bbb;
+              font-size: 13px;
+            }
+        }
+        button {
+            width: 300px;
+            margin-top: 20px;
+            height: 30px;
+            line-height: 30px;
+            background-color: cornflowerblue; 
+            border-radius: 3px;
+            color: #ffffff;
+        }
+    }
+}
