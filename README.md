@@ -1,4 +1,4 @@
-# 前言
+# 后台系统 前言
 
 [README in English](README-en.md)
 
@@ -19,6 +19,10 @@ npm install    (yarn install)
 
 # 运行
 npm start      (yarn start)
+
+# 测试账号(不同账号，不同权限)
+admin   1
+agent   1
 
 # 目录结构
 ```
